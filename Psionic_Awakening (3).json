@@ -1,0 +1,1629 @@
+{
+	"siteVersion": "1.150.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "PsionicAwakening",
+				"abbreviation": "PsAw",
+				"full": "Psionic Awakening",
+				"url": "",
+				"authors": [
+					"Suracha"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1646339303,
+		"dateLastModified": 1646339303
+	},
+	"spell": [
+		{
+			"name": "Attraction",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"telepathy"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You target a creature that has an Intelligence of 2 or higher, and is not an undead or construct, and compel it to feel an attraction towards another creature, an object, or a location.  The attraction manifests itself as the target's own whim, and not a blind, suicidal obsession; if not in danger, they will attempt to move towards and observe the subject of their attraction. If the subject is the caster, the target will be willing to stop whatever they are doing and listen to whatever the caster has to say, with the caster having advantage on Charisma checks against them, but is not compelled to obey, like or spare the caster if unconvinced."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ectoplasmic Bolt",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"metacreativity"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You turn nearby air, water, or any other plentiful medium, into ectoplasm, shaping it into ammunition for a ranged weapon of your choice, such as arrows for a bow, crossbow bolts or sling bullets. You must touch the weapon while manifesting this power, though it can be held or worn by another creature. You create {@dice 2d4} pieces of ammunition, which can be used with the weapon you chose and any weapon of the same type. When fired, the bolts add a +1 bonus to the attack and damage rolls of an attack. Upon being fired, whether they hit or miss, the bolts turn into the material the ectoplasm was created from, and disappear."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When spending additional psi points to manifest this power, you improve the bonus of each piece of ammunition as follows: +2 for 3 extra points expended, +3 for 7 extra points expended. Additionally, if 4 or more psi points are expended, the duration of the effect becomes 10 minutes; if 11 or more psi points are expended, it becomes 1 hour."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Call to Mind",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"telepathy"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Through brief meditation and autohypnosis, you force your mind to reveal information it has hidden. If the DM decides that you have failed a check to recall information, such as with the Arcana, History, Nature, Religion and Medicine skills, you may use this power to attempt the check again, with advantage. On a success, you immediately unlock the information from your subconscious, if the information exists at all. On a failure, the DM will inform you whether you have ever heard of the subject, but no further information is provided. Before the casting time is over, the DM may (but is not required to) inform you that you cannot possibly have the information you seek. If that is the case, the power ends, and you regain the psi points expended on it."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Catfall",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"psychoportation"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you hit a surface while falling"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You minimize the negative effects of a fall. You land on your feet regardless of the surface you've fallen on, and the fall damage you would take is reduced, as if you had fallen 10 feet less. Any objects or creatures you are carrying benefit from this power. "
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"For every additional psi point spent on manifesting this power, the damage you take is reduced as if you had fallen an additional 10 feet less."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Conceal Thoughts",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"telepathy"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You select a willing creature within range that is not undead or a construct and has an Intelligence of 6 or higher, and subtly modify its surface thoughts. For the duration, the target has advantage on Charisma (Deception) checks, and effects and spells such as {@spell detect thoughts} lower than 5th level cannot discern the target's true goals and intentions. The target maintains their beliefs, personality, goals and intentions; only the most psychically-accessible part of their subconscious is affected."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Control Light",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"psychokinesis"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You manipulate the photons in an area to modify the lighting of an area in range with a radius up to 20 feet. You may increase or reduce the illumination of the area, either gradually or instantly, to any level you wish. You can continue modifying the light in the area, or choose another 20-foot area within range, for as long as the spell lasts. You can suppress light caused by cantrips and magical or psionic effects of 1st level, but any other magical light and darkness is unaffected."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Crystal Shard",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"metacreativity"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You crystallize psionic energy into a quasi-physical shard, which you send towards a creature within range. Make a ranged spell attack against the creature; if the creature is wearing armor or a shield or is protected by natural armor, this attack ignores these defenses. On a hit, the target takes {@damage 1d6} piercing damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"The damage increases by {@dice 1d6} for every additional psi point you spend."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Deceleration",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"psychoportation"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You briefly reach between and fold the dimensions, increasing the density of space around a creature in range that is Medium or smaller. The target must succeed on a Dexterity saving throw or have its movement speed halved for the duration. The target may repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may increase the size of creatures you can affect with this power by spending additional psi points, with every 2 extra points increasing it by one size, up to Gargantuan at 6 extra points spent."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Deja Vu",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"telepathy"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You psionically compel a creature within range to repeat its actions. The target must make a Wisdom saving throw; creatures with an intelligence of 6 or lower make this save with disadvantage. On a failure, the target must make exactly the same actions it has made on its previous turn, within reason. For example, if the target moved to a creature and attacked it, it may continue to attack it on this turn, and does not need to move again. If the target cannot take the same actions again, such as when the creature they last attacked no longer being reachable, or when they no longer have the necessary spell slots to cast a spell, they instead stand still and take no actions. "
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"For every additional 2 psi points you spend, you can cause this power to affect one more creature."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Detect Psionics",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"clairsentience"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You focus on sensing psionic auras in a radius of 30 feet centered on you. Creatures which have achieved a Psionic Awakening, active psionic powers and psionic spells, and creatures which have psionic spellcasting all radiate a psionic aura.",
+				"The power can penetrate barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may spend an additional 2 psi points to identify either the discipline of a detected power, or the relative level of the power, (1st to 3rd, 4th to 6th, or 7th to 9th). You may spend 4 points instead to learn both."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Empty Mind",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"telepathy"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "turn",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You swiftly cleanse your mind of any unnecessary thoughts and ideas. This strengthens your resolve and focus, granting you a bonus to Wisdom saving throws equal to your proficiency bonus until the start of your next turn. You may take this reaction when affected by an effect that would require you to make a Wisdom saving throw, before you make the saving throw."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may spend an additional 2 psi points to also receive the same bonus to Constitution saving throws made to maintain concentration. If you do so, you may take the reaction when you take damage that would cause you to make such a saving throw."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Force Screen",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"psychokinesis"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You project forth a transparent screen of psionic energy, which hovers in front of you and moves as you do. Choose a direction relative to you; you gain a bonus to your AC against ranged attacks in a 180-degree arc in that direction, equal to your psionics modifier. The screen extends into the Ethereal Plane, and also protects from incorporeal creatures or attacks, as well as psionic attacks such as {@spell crystal shard|psionicawakening}. ",
+				"If a creature standing behind you is targeted by a ranged attack and you are facing the attacker, you may provide the same bonus to the creature, or choose to let the attack pass through the screen. Your own attacks and effects are automatically allowed to pass through the screen. ",
+				"You may change the direction of the screen as a bonus action on subsequent turns."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Skate",
+			"source": "PsionicAwakening",
+			"level": 1,
+			"school": "P",
+			"subschools": [
+				"psychoportation"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You, a Medium or smaller willing creature of your choice or a Medium or smaller object that is not being worn or carried, begin to continuously teleport forward very short distances, giving them the impression of gliding across surfaces. A creature's speed increases by 15 feet on flat surfaces or 30 feet while downhill, but is unaffected while traveling uphill. An object begins to glide downhill if unattended, and counts as having one tenth of its weight for the purpose of being dragged or pushed across surfaces. A creature may end the effect on itself as a free action at any point."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may spend 2 extra psi points to increase the maximum size of affected creatures and objects to Large, and a further 2 psi points to increase it to Huge."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Biofeedback",
+			"source": "PsionicAwakening",
+			"level": 2,
+			"school": "P",
+			"subschools": [
+				"psychometabolism"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"You psionically instruct your body to vastly increase its natural toughness and regeneration in short bursts, negating small amounts of incoming damage. For the duration, all bludgeoning, piercing, slashing and force damage that you take is reduced by 2, to a minimum of 0. The effect ends early if you are knocked {@condition unconscious}."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may spend 3 extra psi points to increase the damage reduction to 3."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Body Equilibrium",
+			"source": "PsionicAwakening",
+			"level": 2,
+			"school": "P",
+			"subschools": [
+				"psychometabolism"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You psionically shift the organ mass of your body to maintain perfect equilibrium regardless of the surface you walk on. You may walk on liquids, quicksand, and even particularly fragile solids such as weak linen or a spider web, without breaking the surface. Additionally, you ignore the penalties of difficult terrain. This effect does not allow you to move normally if the surface you travel on is sticky, particularly dangerous, such as with caltrops, or actively attempting to hinder you, such as with the {@spell plant growth} spell. Finally, you have resistance to fall damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may spend 3 extra psi points to affect one other willing creature you touch, as well as yourself."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Cloud Mind",
+			"source": "PsionicAwakening",
+			"level": 2,
+			"school": "P",
+			"subschools": [
+				"telepathy"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You erase your presence from the mind of a creature of your choice. The target must succeed on a Wisdom saving throw, or become affected by your psionic manipulation. An affected target cannot become aware of you or your location in any way, even through blindsight or truesight, as long as you do not attack or otherwise damage it. The target also remains unaware of any actions you take that do not obviously and directly threaten it or its allies. If you perform any action that does, or which produces a long-lasting or permanent change to the surrounding environment, the creature can repeat its saving throw."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may spend 3 extra psi points to affect two other creatures within range."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ego Whip",
+			"source": "PsionicAwakening",
+			"level": 2,
+			"school": "P",
+			"subschools": [
+				"telepathy"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You strike at the ego of a creature within range that is not an undead or a construct, diminishing its sense of self. The creature must make a Wisdom saving throw or have its Charisma score reduced by {@dice 1d4 - 1} for the duration. The creature may repeat the saving throw at the end of each of its turns if it has not moved away from any creatures hostile to it, ending the effect on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may spend 3 extra psi points to reduce the target's Charisma score by a further {@dice 1d4}."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Inflict Pain",
+			"source": "PsionicAwakening",
+			"level": 2,
+			"school": "P",
+			"subschools": [
+				"telepathy"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You activate all of a target creature's pain receptors, forcing them to experience distracting pain. The target must make a Wisdom saving throw. On a success, the target has disadvantage on the next attack roll or ability check, and the effect ends. On a failure, the target suffers constant pain, and has disadvantage on all attack rolls and ability checks. At the end of each of its turns, the target may make a Constitution saving throw, ending the effect on a success.",
+				"Creatures incapable of feeling pain, such as most undead and constructs, are immune to this power."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Disrupting Snap",
+			"source": "PsionicAwakening",
+			"level": 2,
+			"school": "P",
+			"subschools": [
+				"telepathy"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You snap your fingers and force the sound to resonate in the minds of creatures of your choice within 10 feet. Targets must succeed on a Wisdom saving throw or be {@condition incapacitated} and unable to move until the start of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may spend an additional 2 psi points to increase the range of this power to 15 feet."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Recall Agony",
+			"source": "PsionicAwakening",
+			"level": 2,
+			"school": "P",
+			"subschools": [
+				"clairsentience"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You force a creature within range to experience visions of the pain it has experienced in the past, and that it might experience in the future. The target must make a Wisdom saving throw, taking {@damage 4d6} psychic damage on a failure and half on a success. "
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"For every additional psi point you spend on this power, its damage increases by {@dice 1d6}."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Sustenance",
+			"source": "PsionicAwakening",
+			"level": 2,
+			"school": "P",
+			"subschools": [
+				"psychometabolism"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expend psionic energy to fuel your body temporarily. When you use this power, you do not need to eat or drink for one day."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may expend an additional 2 psi points to target a willing creature you touch."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Swarm of Crystals",
+			"source": "PsionicAwakening",
+			"level": 2,
+			"school": "P",
+			"subschools": [
+				"metacreativity"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You project an arc of crystallized psionic energy. All creatures in a 15-foot cone take {@dice 3d4} points of slashing damage. "
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"Every 2 additional psi points you spend increase this power's damage by {@dice 1d4}. If you spend at least 4 additional psi points, you may choose to change the damage type to force or psychic."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Body Adjustment",
+			"source": "PsionicAwakening",
+			"level": 3,
+			"school": "P",
+			"subschools": [
+				"psychometabolism"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You turn your body's natural healing capabilities to the most vital organs and systems. You regain {@dice 3d10} hit points.  "
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"For every additional psi point you spend, you regain an extra {@dice 1d10} hit points."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Energy Bolt",
+			"source": "PsionicAwakening",
+			"level": 3,
+			"school": "P",
+			"subschools": [
+				"psychokinesis"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You project a beam of energy in a line 120 feet long and 10 feet wide. Creatures in the area must make a Dexterity saving throw, taking {@damage 5d6} force damage on a failure and half as much on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"For every additional psi point you spend, you deal an additional {@dice 1d6} damage."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Energy Burst",
+			"source": "PsionicAwakening",
+			"level": 3,
+			"school": "P",
+			"subschools": [
+				"psychokinesis"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "sphere",
+				"distance": {
+					"type": "feet",
+					"amount": 40
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You unleash a burst of astral energy in a line 120 feet long and 10 feet wide. Creatures in the area must make a Dexterity saving throw, taking {@damage 5d6} force damage on a failure and half as much on a success. The burst imparts very little force on affected targets; the energy simply rends their bodies to pieces."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"For every additional psi point you spend, you deal an additional {@dice 1d6} damage."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Energy Retort",
+			"source": "PsionicAwakening",
+			"level": 3,
+			"school": "P",
+			"subschools": [
+				"psychokinesis"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You cover yourself with an ethereal veil of energy. For the duration of the power, whenever you are hit by an attack, you may use your reaction to lash out at the source of the attack. To do this, you must be able to see the target, and it must be within 60 feet of you. You make a ranged spell attack against the target, dealing {@damage 4d6} force damage on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may expend additional psi points to increase the duration of this power. If you expend 2 extra psi points, the duration becomes 10 minutes. If you expend 4 extra psi points, it becomes 1 hour. If you expend 7 extra psi points, it becomes 8 hours."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Eradicate Invisibility",
+			"source": "PsionicAwakening",
+			"level": 3,
+			"school": "P",
+			"subschools": [
+				"psychokinesis"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You release a pulse of energy which forces {@condition invisible} creatures back into the visible spectrum. Any creature within a 60-foot radius centered on you that is currently {@condition invisible} must succeed on a Dexterity saving throw or lose any effects that are making them {@condition invisible}. If a creature is naturally {@condition invisible} or simply does not have a visible form, it appears as a dim outline for 1 minute, and may make a Constitution saving throw at the start of each of its turns, regaining its invisibility on a success."
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Energy Wall",
+			"source": "PsionicAwakening",
+			"level": 3,
+			"school": "P",
+			"subschools": [
+				"psychokinesis"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You weave energy into a thin, semi-solid plane of force of length 20 ft. x your psionic ability modifier, which you can shape in any way you want while keeping it in a single continuous line. The wall is 20 ft. high and as thin as a sheet of paper. Pick one side of the wall; that side pulses out with energy, while the other remains solid. Creatures that move within 20 feet of the pulsing side must make a Constitution saving throw, taking {@damage 1d6} force damage on a failure, and half as much on a success. If a creature moves within 10 feet of the wall, it takes {@damage 2d6} damage instead. If it crosses the wall, it takes additional damage equal to your psionic ability score."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"For every 2 additional psi points you expend, this power deals an additional {@damage 1d6} damage."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Share Pain",
+			"source": "PsionicAwakening",
+			"level": 2,
+			"school": "P",
+			"subschools": [
+				"psychometabolism"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You create a link between two willing creatures within range. Choose one of the creatures as the beneficiary; that creature takes half damage from all sources for the duration, and the other creature takes any remaining damage. "
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may spend 2 additional psi points to instead target an unwilling creature; the creature must make a Wisdom saving throw. On a failure, the spell affects you and the target, with you and the beneficiary. Maintaining this power against an unwilling creature reduces its duration to concentration, 10 minutes."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mind Trap",
+			"source": "PsionicAwakening",
+			"level": 3,
+			"school": "P",
+			"subschools": [
+				"telepathy"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You create a sapping trap in your subconscious to punish those who would seek to probe or control your mind. A creature which targets you with a mental power or spell of any sort must make an Intelligence saving throw; on a failed save, the power or spell is negated, and the creature loses {@dice 1d6} psi points or levels of spell slots, at its discretion. Regardless of result, the spell ends. Effects which trigger this power include spells such as {@spell hold person} or {@spell detect thoughts}, powers such as {@spell cloud mind|psionicawakening} and {@spell deja vu|psionicawakening}, and most effects which force a Wisdom or Intelligence saving throw. Cantrips do not trigger this power."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You may spend 4 additional psi points to either increase the duration of this power to 8 hours, or use it on a willing creature that you touch."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mind Blast",
+			"source": "PsionicAwakening",
+			"level": 3,
+			"school": "P",
+			"subschools": [
+				"telepathy"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You release a brief psionic attack, dispersed over a 30-foot cone. All creatures of your choice in the area must make an Intelligence saving throw; a creature that fails the saving throw is {@condition stunned} until the end of its next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"For every 2 additional psi points you spend, the targets are {@condition stunned} for an additional round."
+					]
+				}
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Time Hop",
+			"source": "PsionicAwakening",
+			"level": 3,
+			"school": "P",
+			"subschools": [
+				"psychoportation"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You briefly shift a creature or object of size Medium or smaller out of time. The target disappears, and time does not pass for it; any effects on it that advance over time are paused. A creature is effectively {@condition incapacitated} and {@condition unconscious}. After {@dice 1d4} rounds, the target reappears in the exact same location and status as before, and is unaware that any time has passed, but may notice if other creatures or objects rapidly moved. A creature may make a Wisdom saving throw to resist the effect when the power is first manifested. While under the effect, a creature may make a DC 15 Intelligence check, ending the effect early on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"You can augment this power in one or all of the following ways.",
+						"For every 2 additional psi points you expend, you may either affect an additional target within range, or increase the maximum size category of a target by one. ",
+						"You may expend additional psi points to increase the number of rounds a target is pushed forward in time by one per psi point."
+					]
+				}
+			],
+			"conditionInflict": [
+				"incapacitated",
+				"unconscious"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		},
+		{
+			"name": "Ubiquitous Vision",
+			"source": "PsionicAwakening",
+			"level": 3,
+			"school": "P",
+			"subschools": [
+				"clairsentience"
+			],
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You gain perfectly spherical vision, as if your entire body was covered in eyes. You can see in every direction at once, and enhanced sight, such as darkvision and truesight, apply to every direction. You cannot be surprised by creatures that are not {@condition invisible}, and you have advantage on Perception checks to spot such creatures and objects, as well as on saving throws to resist effects that would blind you. You are also immune to the Sneak Attack and Pack Tactics features, but you have disadvantage on saving throws against effects that require you to see them, such as a flash of light or a {@creature medusa}'s gaze."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Psion",
+						"source": "PsionicAwakening"
+					}
+				]
+			}
+		}
+	]
+}
